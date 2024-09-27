@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 375px;
+  height: 92px;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+  color: #6763fd; /* Matches the blue logo color */
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu-icon span {
+  font-size: 2rem;
+  color: #6763fd;
+}
+
+/* Profile Section */
+.headline {
+  width: 375px;
+  height: 610px;
+  background-color: #f7f9fc;
+  padding: 114px 20px 114px 20px; /* Adds 114px space before the first div and after the last div */
+}
+
+.primarytext {
+  font-size: 3rem;
+  color: #1f2533; /* Black text color */
+  font-weight: 700;
+  line-height: 1.2;
+  width: 327px;
+  height: 150px;
+  margin-bottom: 14px;
+  padding-bottom: 1rem;
+}
+
+.primarytext2 {
+  font-size: 1rem; 
+  color: #707070; 
+  height: 150px;
+  width: 327px;
+  margin-top: 14px; 
+}
+
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons h4 {
+  font-size: 1rem;
+  color: #6763fd; 
+  font-weight: bold;
+}
+
+.social-icons .icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons .icons i {
+  font-size: 1.5rem;
+  color: #1f2533; 
+}
+
+
+@media screen and (max-width: 768px) {
+  header, .headline {
+    width: 100%;
+  }
+}
