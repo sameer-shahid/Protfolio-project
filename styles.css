@@ -2,10 +2,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f7f9fc;
+  font-family: 'Poppins';
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
+/* Header Section */
 header {
   display: flex;
   justify-content: space-between;
@@ -14,46 +18,53 @@ header {
   width: 375px;
   height: 92px;
   padding: 0 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .logo a {
-  color: #6763fd; /* Matches the blue logo color */
+  color: #6763fd; 
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
 }
 
-.menu-icon span {
-  font-size: 2rem;
-  color: #6763fd;
+.menu-icon {
+  background-image: url(Enabled.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain; 
+  background-repeat: no-repeat;
 }
 
-/* Profile Section */
-.headline {
+
+main {
   width: 375px;
   height: 610px;
-  background-color: #f7f9fc;
-  padding: 114px 20px 114px 20px; /* Adds 114px space before the first div and after the last div */
+  padding: 114px 20px;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url(header-shapes\ mobile.png); 
 }
 
 .primarytext {
-  font-size: 3rem;
-  color: #1f2533; /* Black text color */
-  font-weight: 700;
+  font-size: 40px;
+  color: #1f2533; 
+  font-weight: 700; 
   line-height: 1.2;
   width: 327px;
   height: 150px;
   margin-bottom: 14px;
-  padding-bottom: 1rem;
 }
 
-.primarytext2 {
+h1 { 
   font-size: 1rem; 
   color: #707070; 
-  height: 150px;
   width: 327px;
-  margin-top: 14px; 
+  height: 146px;
+  margin-bottom: 14px;
 }
 
 
@@ -61,7 +72,7 @@ header {
   margin-top: 30px;
 }
 
-.social-icons h4 {
+.social-icons h2 {
   font-size: 1rem;
   color: #6763fd; 
   font-weight: bold;
@@ -73,14 +84,7 @@ header {
   margin-top: 10px;
 }
 
-.social-icons .icons i {
-  font-size: 1.5rem;
-  color: #1f2533; 
-}
-
-
-@media screen and (max-width: 768px) {
-  header, .headline {
-    width: 100%;
-  }
+.icons img {
+  width: 20px;  
+  height: 20px; 
 }
