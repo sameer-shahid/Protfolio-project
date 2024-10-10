@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 375px;
+  height: 92px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.logo a {
+  color: #6763fd; 
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu-icon {
+  background-image: url(Enabled.png);
+  width: 40px;
+  height: 40px;
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+
+
+main {
+  width: 375px;
+  height: 610px;
+  padding: 114px 20px;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url(header-shapes\ mobile.png); 
+}
+
+.primarytext {
+  font-size: 40px;
+  color: #1f2533; 
+  font-weight: 700; 
+  line-height: 1.2;
+  width: 327px;
+  height: 150px;
+  margin-bottom: 14px;
+}
+
+h1 { 
+  font-size: 1rem; 
+  color: #707070; 
+  width: 327px;
+  height: 146px;
+  margin-bottom: 14px;
+}
+
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons h2 {
+  font-size: 1rem;
+  color: #6763fd; 
+  font-weight: bold;
+}
+
+.social-icons .icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icons img {
+  width: 20px;  
+  height: 20px; 
+}
